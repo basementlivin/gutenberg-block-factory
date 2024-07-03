@@ -33,7 +33,7 @@ export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
 			{ __(
-				'Multipage Form Block – hello from the editor!',
+				'Okay, now what we got here is a Multi-Page Form block!',
 				'multipage-form-block'
 			) }
 		</p>

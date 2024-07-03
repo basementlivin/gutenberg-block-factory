@@ -5,11 +5,105 @@
   "version": "0.1.0",
   "title": "Multipage Form Block",
   "category": "widgets",
-  "icon": "smiley",
-  "description": "Example block scaffolded with Create Block tool.",
+  "icon": "feedback",
+  "description": "Create interactive, multi-page forms with ease.",
   "example": {},
+  "attributes": {
+    "formId": {
+      "type": "string",
+      "default": ""
+    },
+    "formTitle": {
+      "type": "string",
+      "default": "What brings you here?"
+    },
+    "formDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "formFields": {
+      "type": "array",
+      "default": []
+    },
+    "formPages": {
+      "type": "array",
+      "default": []
+    },
+    "formPage": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageCount": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageFields": {
+      "type": "array",
+      "default": []
+    },
+    "formPageField": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageFieldCount": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageFieldTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageFieldDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageFieldRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "formPageFieldPlaceholder": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageFieldOptions": {
+      "type": "array",
+      "default": []
+    },
+    "formPageFieldOption": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageFieldOptionCount": {
+      "type": "number",
+      "default": 0
+    },
+    "formPageFieldOptionLabel": {
+      "type": "string",
+      "default": ""
+    },
+    "formPageFieldOptionValue": {
+      "type": "string",
+      "default": ""
+    }
+  },
   "supports": {
-    "html": false
+    "align": true,
+    "color": {
+      "background": false,
+      "text": true
+    },
+    "html": false,
+    "typography": {
+      "fontSize": true
+    }
   },
   "textdomain": "multipage-form-block",
   "editorScript": "file:./index.js",
